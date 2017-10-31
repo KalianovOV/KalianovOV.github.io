@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 4100px;
+    width: 1400px;
+    /*font-family: "Hind", "Century Gothic";  */
+    font: 14px / 1.5 "Century Gothic";
+    float: none;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #CCCC;
+}
+
+
+.address-block {
+    display: inline-block;
+    color: black;
+}
+
+/* ШАПКА КОНТАКТЫ ГОРОД АДРЕС */
+.contact-info-block {
+    display: inline-block;
+    color: black;
+    margin-left: 15px;
+    float: right
+}
+
+.contact-info-block li a {
+    color: black;
+}
+
+.contact-info-block li a:hover {
+    color: gray;
+}
+
+/* ШАПКА ИКОНКИ СОЦ СЕТЕЙ*/
+.social-icons-block {
+    display: inline-block;
+    margin-right: 15px;
+    float: left
+}
+
+.social-icons-block ul li {
+    display: block;
+    color: black;
+    margin-left: 15px;
+}
+
+.social-icons-block li a {
+    color: black;
+}
+
+.social-icons-block li a:hover {
+    color: gray;
+}
+
+/* БЛОК LOGO */
+.logo-block{   }
+.logo{}
+.logo-info {
+    font: 14px / 1.5 "Hint Bold";
+    margin-left: 15px;
+    color: black;}
+.logo-info li a:hover {
+    color: gray;
+    
+}
+
+/* БЛОК МЕНЮ */
+.menu-block {
+
+    background-color: #000000;
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    marker-mid: 10px;
+}
+
+.menu-buttons ul li {
+    display: block;
+    color: white;
+    margin-left: 15px;
+    padding-top: inherit;
+    float: left;
+    }
+
+.menu-buttons li a:hover {
+    color: gray;
+    border-bottom: 3px solid #bd2631;
+}
+
+.search-block {
+    color: gray;
+    float: right;
+}
