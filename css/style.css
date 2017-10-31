@@ -6,15 +6,32 @@
 body {
     height: 4100px;
     width: 1400px;
-    /*font-family: "Hind", "Century Gothic";  */
-    font: 14px / 1.5 "Century Gothic";
+    font-family: "Hind", "Century Gothic";
     float: none;
+    display: table-cell;
 }
 
-.clearfix:after {
+/*очистка потока */
+.address-block:after {
     content: "";
-    display: table;
+    display: inline-block;
     clear: both;
+    height: 0;
+
+}
+
+.logo-block:after {
+    content: "";
+    display: inline-block;
+    clear: both;
+    height: 0;
+}
+
+.menu-block:after {
+    content: "";
+    display: inline-block;
+    clear: both;
+    height: 0;
 }
 
 a {
@@ -30,35 +47,36 @@ a:hover {
     display: block;
     color: black;
     background-color: #eeeeee;
+
 }
 
-/* ШАПКА КОНТАКТЫ ГОРОД АДРЕС */
-.contact-info-block {
-    display: block;
-    color: black;
-    margin-left: 15px;
-    float: right
+.address-block city {
+    float: left;
+    background-color: black;
+    border-color: black;
+    border: 0px;
 }
 
-.contact-info-block li a {
-    color: black;
-}
-
-.contact-info-block li a:hover {
+.address-block city a {
+    border-radius: 3%;
+    padding: 5px;
+    font-size: 14px;
     color: gray;
+    marge: 5px
 }
 
 /* ШАПКА ИКОНКИ СОЦ СЕТЕЙ*/
 .social-icons-block {
     display: inline-block;
     margin-right: 15px;
-    float: left
+    float: right;
 }
 
 .social-icons-block ul li {
-    display: block;
+    display: inline;
     color: black;
     margin-left: 15px;
+
 }
 
 .social-icons-block li a {
@@ -69,16 +87,57 @@ a:hover {
     color: gray;
 }
 
+.social-icons-block li i:hover {
+    color: crimson;
+}
+
+/* ШАПКА ГОРОД АДРЕС */
+.contact-info-block {
+    display: block;
+    color: black;
+    margin-left: 15px;
+    float: left
+}
+
+.contact-info-block li {
+    list-style-type: none;
+    display: inline;
+}
+
+.contact-info-block li a {
+    color: black;
+}
+
+.contact-info-block li a:hover {
+    color: gray;
+}
+
 /* БЛОК LOGO */
-.logo-block{   }
-.logo{}
+.logo-block {
+}
+
+.logo {
+    float: left;
+}
+
 .logo-info {
     font: 14px / 1.5 "Hint Bold";
     margin-left: 15px;
-    color: black;}
+    color: black;
+    float: right;
+    display: inline;
+}
+
+.logo-info li {
+    color: gray;
+    list-style-type: none;
+    display: inline;
+    padding: 15px;
+}
+
 .logo-info li a:hover {
     color: gray;
-    
+
 }
 
 /* БЛОК МЕНЮ */
@@ -87,17 +146,25 @@ a:hover {
     background-color: #000000;
     display: inline-block;
     width: 100%;
-    height: 40px;
+    height: 80px;
     marker-mid: 10px;
+    color: white;
+    font-size: 16px;
+
+}
+
+.menu-buttons ul {
+    top: 50%;
 }
 
 .menu-buttons ul li {
     display: block;
     color: white;
     margin-left: 15px;
-    padding-top: inherit;
     float: left;
-    }
+    font-weight: bold;
+    marge: 15px;
+}
 
 .menu-buttons li a:hover {
     color: gray;
@@ -107,4 +174,9 @@ a:hover {
 .search-block {
     color: gray;
     float: right;
+    margin-right: 15px;
+}
+
+.search-block :hover {
+    color: white;
 }
