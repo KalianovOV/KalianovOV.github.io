@@ -26,15 +26,15 @@ a:hover {
     color: #CCCC;
 }
 
-
 .address-block {
-    display: inline-block;
+    display: block;
     color: black;
+    background-color: #eeeeee;
 }
 
 /* ШАПКА КОНТАКТЫ ГОРОД АДРЕС */
 .contact-info-block {
-    display: inline-block;
+    display: block;
     color: black;
     margin-left: 15px;
     float: right
