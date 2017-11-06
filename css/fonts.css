@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Myriad Pro Regular";
+    src: url('../Fonts/MyriadPro-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'FontAwesome';
+    src: url("../Fonts/fontawesome-webfont.svg");
+    src: url("../Fonts/fontawesome-webfont.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Hind";
+    src: url('https://fonts.google.com/specimen/Hind?selection.family=Hind') format('truetype');
+    }
