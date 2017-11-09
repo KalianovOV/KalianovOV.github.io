@@ -23,20 +23,17 @@ ul {
     list-style: none;
 }
 
-/*clearfix:after, clearfix:before {*/
-/*content: ".";*/
-/*display: table;*/
-/*height: 0;*/
-/*clear: both;*/
-/*}*/
+.clearfix:after,
+.clearfix:before {
+    display: table;
+    content: '';
+}
 
-/*clearfix:after {*/
-/*clear: both;*/
-/*}*/
+.clearfix:after {
+    clear: both;
+}
 
-/*div {*/
-/*border: 1px solid black;*/
-/*}*/
+/*div {border: 1px solid black;}*/
 
 .contacts-info {
     /*min-width: 100%;*/
@@ -64,11 +61,11 @@ ul {
 }
 
 .phone-box i {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .address-box i {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .city-box {
@@ -101,15 +98,17 @@ ul {
 
 /* LOGO BLOCK =============================*/
 .logo-block {
-    position: relative;
+    /*position: relative;*/
     padding-left: 100px;
+    padding-top: 29px;
+    background: #fff;
 }
 
 .logo-img {
-    display: inline-block;
+    /*display: inline-block;*/
     float: left;
-    padding-top: 32px;
-    padding-left: 42px;
+    padding-top: 30px;
+    /*padding-left: 42px;*/
 }
 
 .logo-subtitles {
@@ -121,12 +120,12 @@ ul {
     margin-top: 32px;
 }
 
-.bold {
+.title {
     font-weight: bold;
     padding-left: 10px;
 }
 
-.thin {
+.subtitle {
     color: rgb(122, 122, 122);
     padding-left: 27px;
 }
@@ -158,6 +157,7 @@ ul {
     margin: 0 auto;
     clear: both;
 }
+
 .menu {
     width: 100%;
     padding-top: 20px;
@@ -167,11 +167,13 @@ ul {
     height: 50px;
 
 }
-menu-block{
-    height: 100%;
-    display: inline-block;
-    padding-right: 100px;
-}
+
+/*menu-block{*/
+/*height: 100%;*/
+/*display: inline-block;*/
+/*padding-right: 100px;*/
+/*}*/
+
 .menu-buttons {
     display: inline-block;
     float: left;
@@ -194,25 +196,26 @@ menu-block{
 .menu-buttons ul li a {
     position: relative;
     color: #fff;
-    top:50%
+    top: 50%
 }
 
-.search-block  {
+.search-block {
     color: gray;
     float: right;
     font-size: 16px;
     padding-top: 2px;
-    padding-right: 40px;}
-
-.search-block i{
-    color: gray;
-    font-size: 16px;
+    padding-right: 40px;
 }
 
-
+.search-block i {
+    color: white;
+    font: 16px/1.5 ";
+}
 
 .search-block i:hover {
     color: #bd2631;
+    cursor: help;
+    /*border-bottom: 3px solid #bd2631;*/
 }
 
 .active {
@@ -276,3 +279,116 @@ slider-content {
     left: 80px;
 }
 */
+
+.information:before {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    clear: both;
+}
+
+.information {
+    /*width: 100%;*/
+}
+
+.line-1 {
+    display: inline-block;
+    max-width: 100%;
+}
+
+.line-1:last-child{
+    float: left;
+    width: 100%;
+}
+
+.products {
+
+    background: rgba(0,0,0,0.75) url("../img/L1-sklad-L42.JPG") no-repeat left top;
+    background-size: cover;
+
+    /*opacity: 0.75;*/
+    width: 50%;
+    height: 454px;
+    float: left;
+}
+/* Text in products*/
+.text {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 30px;
+
+}
+
+.prod-title {
+    color: #BD2631;
+    font-family: "Hind", serif ;
+    font-size: 40pt;
+    text-align: Left;
+
+}
+.prod-text {
+    width: 100%;
+
+    font-family: "Hind", serif;
+    text-align: left;
+    font-size: 14pt;
+    font-weight: lighter;
+    font-stretch: condensed;
+    color: #ffffff;}
+
+/*Picture*/
+.img {
+    float: left;
+    width: 25%;
+    height: 454px;
+}
+
+
+/*PNG Sign on white background*/
+.png-white-top {
+    float: left;
+    width: 25%;
+    height: 454px;
+    /*border: darkblue solid 3px;*/
+}
+.png-white-sub{
+    float: left;
+    /*border-color: white;*/
+    padding-top: 45%;
+    padding-left: 30%;
+    /*border: crimson solid 2px;*/
+}
+.png {
+     /*border: green solid 3px;*/
+}
+
+
+
+
+/*RESPONSIVE 1920-320*/
+
+@media screen and (max-width: 1098px) {
+
+    .social-icons-block {
+        float: none;
+    }
+
+    logo-img, logo-subtitles {
+        float: none;
+    }
+
+    .logo-block {
+        text-align: center;
+    }
+}
+
+/*img {*/
+/*width 100%*/
+/*height auto*/
+/**/
+/**/
+/*}*/
+/*}*/
+/*1060 995 760 570 440 390*/
+/*:before*/
+
