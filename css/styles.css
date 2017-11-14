@@ -36,22 +36,18 @@ ul {
 /*div {border: 1px solid black;}*/
 
 .contacts-info {
-    /*min-width: 100%;*/
-    /*min-height: 100%;*/
+
     position: relative;
     display: block;
     background: rgb(237, 237, 237);
     height: 40px;
-    /*padding-left: 102px;*/
-    /*padding-top: 10px;*/
-    /*padding-bottom: 10px;*/
-    /*padding-right: 65px;*/
+
     padding: 10px 65px 10px 100px;
 }
 
 .address-block {
     float: left;
-    padding-left: 47px;
+    padding-left: 38px;
 }
 
 .address-block div {
@@ -60,19 +56,24 @@ ul {
     font-family: "Hind", Serif, serif;
 }
 
+.phone-box address-box {
+    padding-left: 2px;
+    padding-top: 2px;
+}
+
 .phone-box i {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .address-box i {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .city-box {
     background: black;
     color: #ffffff;
     padding-top: 10px;
-    padding-bottom: 6px;
+    padding-bottom: 5px;
     padding-left: 15px;
     border-radius: 3px;
 }
@@ -85,61 +86,76 @@ ul {
 
 .social-icons-block {
     float: right;
-    padding-right: 40px;
+    padding-right: 50px;
     padding-top: 7px;
     font: 16px/1.5 "Hind";
 }
 
 .social-icons-block ul li {
     display: inline-block;
-    margin-right: 16px;
+    margin-right: 15px;
     padding-right: 6px;
 }
 
 /* LOGO BLOCK =============================*/
+/* LOGO BLOCK =============================*/
 .logo-block {
     /*position: relative;*/
     padding-left: 100px;
-    padding-top: 29px;
+    padding-top: 20px;
     background: #fff;
 }
 
 .logo-img {
     /*display: inline-block;*/
     float: left;
-    padding-top: 30px;
+    padding-left: 33px;
+    padding-top: 10px;
+    padding-bottom: 0px;
     /*padding-left: 42px;*/
 }
 
 .logo-subtitles {
     display: inline-block;
     float: right;
-    font-size: 15px;
-    padding: 5px;
-
-    margin-top: 32px;
-}
-
-.title {
-    font-weight: bold;
-    padding-left: 10px;
-}
-
-.subtitle {
-    color: rgb(122, 122, 122);
-    padding-left: 27px;
+    font-size: 14px;
+    padding-right: 100px;
+    padding-top: 0px;
+    padding-bottom: 23px;
 }
 
 .sub {
     display: inline-block;
-    padding: 10px 30px;
+    margin: 11px;
+    padding-right: 7px;
+    padding-left: 8px;
     border-right: 1px solid;
-    border-color: #808080;
+    border-color: #e6e6e6;
 }
 
 .sub2 {
     display: inline-block;
-    padding: 10px 30px;
+    padding: 22px;
+}
+
+.bold {
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.bold i {
+    color: #000000;
+    font-size: 14px;
+    font-weight: lighter;
+    padding-left: 20px;
+}
+
+.thin {
+    padding-left: 25px;
+    color: #7a7a7a;
+    font-size: 14px;
+    padding-left: 20px;
 }
 
 /* NAVIGATION BLOCK ============================================*/
@@ -160,7 +176,7 @@ ul {
 
 .menu {
     width: 100%;
-    padding-top: 20px;
+    padding-top: 25px;
     display: inline-block;
     background: rgba(0, 0, 0, 0.8);
     z-index: 999;
@@ -168,11 +184,9 @@ ul {
 
 }
 
-/*menu-block{*/
-/*height: 100%;*/
-/*display: inline-block;*/
-/*padding-right: 100px;*/
-/*}*/
+.menu ul {
+    padding-left: 27px;
+}
 
 .menu-buttons {
     display: inline-block;
@@ -185,41 +199,44 @@ ul {
 .menu-buttons li {
     list-style: none;
     display: inline;
-    padding: 50px 21px 21px;
+    padding: 0 14px 16px;
 }
 
 .menu-buttons li:hover {
     color: gray;
-    border-bottom: 3px solid #bd2631;
+    border-bottom: 6px solid #bd2631;
 }
 
 .menu-buttons ul li a {
     position: relative;
     color: #fff;
-    top: 50%
+    /*top: 50%;*/
+    font: 16px/1.5 "Hind", serif;
 }
 
 .search-block {
     color: gray;
     float: right;
-    font-size: 16px;
-    padding-top: 2px;
-    padding-right: 40px;
+    font-size: 20px;
+    padding-top: 0px;
+    padding-right: 123px;
+    /*margin-right:18px;*/
 }
 
 .search-block i {
     color: white;
-    font: 16px/1.5 ";
+    padding: 5px 20px 18px 20px;
+
 }
 
 .search-block i:hover {
-    color: #bd2631;
+    /*color: #bd2631;*/
     cursor: help;
-    /*border-bottom: 3px solid #bd2631;*/
+    border-bottom: 6px solid #bd2631;
 }
 
 .active {
-    border-bottom: 3px solid #bd2631;
+    border-bottom: 6px solid #bd2631;
 }
 
 /* SLIDER BLOCK */
@@ -284,48 +301,79 @@ slider-content {
     content: '';
     display: block;
     margin: 0 auto;
+    padding: 0 auto;
+    clear: both;
+}
+
+.line-1:before {
+    content: '';
+    display: block;
+    margin: 0 auto;
     clear: both;
 }
 
 .information {
-    /*width: 100%;*/
-}
-
-.line-1 {
-    display: inline-block;
     max-width: 100%;
 }
 
-.line-1:last-child{
+.line-1 {
+    max-width: 100%;
+}
+
+/*.line-1:last-child{*/
+/*float: right;*/
+/*width: 22%;*/
+/*}*/
+
+.products {
     float: left;
+    background: rgba(0, 0, 0, 0.75) url("../img/l1-sklad-l42.jpg") no-repeat left top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 51%;
+    min-height: 454px;
+    margin: 0;
+    /*border: darkblue solid 3px;*/
+}
+
+.img {
+    float: left;
+    width: 25%;
+    height: 454px;
+    margin: 0;
+    padding: 0;
+}
+
+.img-jpg {
+    height: 100%;
     width: 100%;
 }
 
-.products {
-
-    background: rgba(0,0,0,0.75) url("../img/L1-sklad-L42.JPG") no-repeat left top;
-    background-size: cover;
-
-    /*opacity: 0.75;*/
-    width: 50%;
-    height: 454px;
+.png-top {
     float: left;
+    height: 454px;
+    width: 22%;
+    /*border: darkblue solid 3px;*/
 }
+
 /* Text in products*/
 .text {
+    width: 100%;
     margin-top: 100px;
     margin-left: 50px;
     margin-right: 30px;
-
 }
 
 .prod-title {
     color: #BD2631;
-    font-family: "Hind", serif ;
+    font-family: "Hind", serif;
     font-size: 40pt;
     text-align: Left;
 
 }
+
 .prod-text {
     width: 100%;
 
@@ -334,38 +382,56 @@ slider-content {
     font-size: 14pt;
     font-weight: lighter;
     font-stretch: condensed;
-    color: #ffffff;}
+    color: #ffffff;
+}
 
 /*Picture*/
-.img {
-    float: left;
-    width: 25%;
-    height: 454px;
-}
 
+.img-jpg {
+    height: 100%;
+    padding: 0;
+}
 
 /*PNG Sign on white background*/
-.png-white-top {
-    float: left;
-    width: 25%;
-    height: 454px;
-    /*border: darkblue solid 3px;*/
-}
-.png-white-sub{
-    float: left;
+
+.png-sub {
+
     /*border-color: white;*/
     padding-top: 45%;
     padding-left: 30%;
     /*border: crimson solid 2px;*/
 }
+
 .png {
-     /*border: green solid 3px;*/
+    padding: 0;
+    height: 107px;
+    width: 140px;
+    /*border: green solid 3px;*/
 }
 
-
-
-
 /*RESPONSIVE 1920-320*/
+@media screen and (max-width: 711px) {
+
+    .information:last-child {
+        float: none;
+    }
+
+    .products {
+        width: 100%;
+    }
+
+    .img {
+        float: right;
+        width: 50%;
+        height: auto;
+    }
+
+    .png-white-top {
+        float: right;
+        width: 50%;
+        height: 454px;
+    }
+}
 
 @media screen and (max-width: 1098px) {
 
