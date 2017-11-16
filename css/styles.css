@@ -488,9 +488,9 @@ slider-content {
 
 
 @media screen and (max-width: 1120px) {
-    /*.address-block  {float: none;}*/
-    .phone-box{float: right;}
-    .address-box{float: right;}
+    .address-block  {float: none;}
+    .phone-box{float: none;}
+    .address-box{float: none;}
     .social-icons-block {
         float: right;
     }
@@ -503,6 +503,12 @@ slider-content {
         text-align: center;
     }
 }
+
+@media screen and (max-width: 995px) {}
+    @media screen and (max-width: 760px) {}
+        @media screen and (max-width: 570px) {}
+            @media screen and (max-width: 440px) {}
+                @media screen and (max-width: 390px) {}
 
 /*img {*/
 /*width 100%*/
