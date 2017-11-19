@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css\styles.css">
     <link rel="stylesheet" href="css\fonts.css">
     <link href="https://fonts.googleapis.com/css?family=Hind:400,500,600" rel="stylesheet">
+    <script src="js/nav.js"></script>
     <!--<link rel="stylesheet" href="css\fonts.css">-->
 </head>
 
@@ -17,87 +18,85 @@
 <!--Старт блока заголовка-->
 <header>
 
-    <div class="header-container clearfix">
-        <!--BLOCK ADDRESS-->
-
-            <div class="contacts-info">
-                <div class="address-block">
-                    <div class="city-box">
-                        <span> Philadelphia</span> <i class="fa fa-angle-down fa-1g" aria-hidden="true"></i>
-                    </div>
-                    <div class="phone-box">
-                        <span><i class="fa fa-phone fa-1g" aria-hidden="true"></i> Toll-free: 800-455-0054 </span>
-                    </div>
-                    <div class="address-box">
-                        <span> <i class="fa fa-location-arrow fa-1g" aria-hidden="true"></i>
+    <!--BLOCK ADDRESS-->
+    <div class="contacts-info">
+        <div class="address-block">
+            <div class="city-box">
+                <span> Philadelphia</span> <i class="fa fa-angle-down fa-1g" aria-hidden="true"></i>
+            </div>
+            <div class="phone-box">
+                <span><i class="fa fa-phone fa-1g" aria-hidden="true"></i> Toll-free: 800-455-0054 </span>
+            </div>
+            <div class="address-box">
+                    <span> <i class="fa fa-location-arrow fa-1g" aria-hidden="true"></i>
                     200 Industrial Highway &nbsp Ridley Park, 19078</span>
-                    </div>
-                </div>
-
-                <div class="social-icons-block">
-                    <ul>
-                        <li><a href="#"> <i class="fa fa-envelope" aria-hidden="true"></i> </a></li>
-                        <li><a href="#"> <i class="fa fa-youtube" aria-hidden="true"></i> </a></li>
-                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                        <li><a href="#"> <i class="fa fa-linkedin" aria-hidden="true"></i> </a></li>
-                        <li><a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
-                    </ul>
-                </div>
-            </div>
-
-
-
-        <!--BLOCK LOGO-->
-        <div>
-            <div class="logo-block clearfix">
-
-                <div class="logo-img">
-                    <a href="index.html"><img src="img\logo_layer5.png" alt="Logo image"></a>
-                </div>
-
-
-                <div class="logo-subtitles">
-                    <!--<div><i class="fa fa-check-circle-o" aria-hidden="true"></i></div>-->
-                    <div class="sub">
-                        <h2><i class="fa fa-check-circle-o" aria-hidden="true"></i>
-                            <span class="bold">Certified </span></h2>
-                        <p><span class="thin">Subtitle 1</span></p>
-
-                    </div>
-
-                    <div class="sub">
-                        <h2><i class="fa fa-check-circle-o" aria-hidden="true"></i>
-                            <span class="bold">EnterSys Supplier</span></h2>
-                        <p><span class="thin">Subtitle 2</span></p>
-                    </div>
-
-
-                    <div class="sub2">
-
-                        <h2><i class="fa fa-check-circle-o" aria-hidden="true"></i>
-                            <span class="bold">Emergency Service</span></h2>
-                        <p><span class="thin">Subtitle 3</span></p>
-                    </div>
-                </div>
-
             </div>
         </div>
-        <!--NAVIGATION BLOCK-->
-        <div class="menu clearfix">
-            <div class="menu-buttons">
-                <ul id="menu">
-                    <li class="active"><a href="#">HOME </a></li>
-                    <li><a href="#">ABOUT </a></li>
-                    <li><a href="#">PRODUCTS </a></li>
-                    <li><a href="#">SERVICES </a></li>
-                    <li><a href="#">RENTAL </a></li>
-                    <li><a href="#">LEARNING </a></li>
-                    <li><a href="#">CONTACT </a></li>
-                </ul>
-            </div>
-            <div class="search-block"><i class="fa fa-search" aria-hidden="true"></i></div>
-        </div>
 
+        <div class="social-icons-block">
+            <ul>
+                <li><a href="#"> <i class="fa fa-envelope" aria-hidden="true"></i> </a></li>
+                <li><a href="#"> <i class="fa fa-youtube" aria-hidden="true"></i> </a></li>
+                <li><a href="#"> <i class="fa fa-google-plus" aria-hidden="true"></i> </a></li>
+                <li><a href="#"> <i class="fa fa-linkedin" aria-hidden="true"></i> </a></li>
+                <li><a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!--BLOCK LOGO-->
+    <div>
+        <div class="logo-block clearfix">
+
+            <div class="logo-img">
+                <a href="index.html"><img src="img/logo_layer5.png" alt="Logo image"></a>
+            </div>
+
+
+            <div class="logo-subtitles">
+                <div class="sub">
+                    <h2><i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                        <span class="bold">Certified </span></h2>
+                    <p><span class="thin">Subtitle 1</span></p>
+
+                </div>
+
+                <div class="sub">
+                    <h2><i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                        <span class="bold">EnterSys Supplier</span></h2>
+                    <p><span class="thin">Subtitle 2</span></p>
+                </div>
+
+
+                <div class="sub2">
+
+                    <h2><i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                        <span class="bold">Emergency Service</span></h2>
+                    <p><span class="thin">Subtitle 3</span></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--NAVIGATION BLOCK-->
+
+    <div class="menu clearfix">
+        <div class="menu-gamburger">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+        <div class="menu-buttons">
+            <ul id="menu-bt">
+                <li class="active"><a href="#">HOME </a></li>
+                <li><a href="#">ABOUT </a></li>
+                <li><a href="#">PRODUCTS </a></li>
+                <li><a href="#">SERVICES </a></li>
+                <li><a href="#">RENTAL </a></li>
+                <li><a href="#">LEARNING </a></li>
+                <li><a href="#">CONTACT </a></li>
+            </ul>
+        </div>
+        <div class="search-block"><i class="fa fa-search" aria-hidden="true"></i></div>
     </div>
 
 </header>
@@ -139,13 +138,15 @@
             </div>
 
             <div class="img"> <!--img-->
-                <img class="img-jpg" src="img\l1-cara-l43.jpg" alt="Car">
+                <img class="img-jpg" src="img/l1-cara-l43.jpg" alt="Car">
             </div>
 
             <div class="png-top-white">  <!--png sign-->
+                <div class="spaces1"></div>
+
                 <div class="png-sub">
-                    <div class="png">
-                        <img class="img-png" src="img\l1-akkum-layer-36.png" alt="Batteries">
+                    <div class="png1">
+                        <img class="img-png" src="img/l1-akkum-layer-36.png" alt="Batteries">
                     </div>
                 </div>
             </div>
@@ -154,13 +155,14 @@
         <div class="line-2 clearfix">
 
             <div class="img"> <!--img-->
-                <img class="img-jpg" src="img\l2-cables-l40.jpg" alt="Ceble">
+                <img class="img-jpg" src="img/l2-cables-l40.jpg" alt="Cable">
             </div>
 
             <div class="png-top-white">  <!--png sign-->
-                <div class="png-sub">
-                    <div class="png">
-                        <img class="img-png" src="img\l2-gear-l52.png" alt="Grear">
+                <div class="spaces2"></div>
+                <div class="png-sub2">
+                    <div class="png2">
+                        <img class="img-png" src="img/l2-gear-l52.png" alt="Grear">
                     </div>
                 </div>
             </div>
@@ -187,15 +189,16 @@
             </div>
 
             <div class="png-top-red">  <!--png sign-->
-                <div class="png-sub">
-                    <div class="png">
+                <div class="spaces3"></div>
+                <div class="png-sub3">
+                    <div class="png3">
                         <img class="img-png" alt="Grear" src="img/l3-trash-l37.png"/>
                     </div>
                 </div>
             </div>
 
             <div class="img"> <!--img-->
-                <img class="img-jpg" src="img\l3-boxes-l44.jpg" alt="Ceble">
+                <img class="img-jpg" src="img/l3-boxes-l44.jpg" alt="Ceble">
             </div>
         </div>
 
