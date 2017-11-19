@@ -23,7 +23,6 @@ ul {
     list-style: none;
 }
 
-
 .clearfix:after,
 .clearfix:before {
     display: table;
@@ -411,7 +410,6 @@ slider-content {
     width: 100%;
 }
 
-
 /* Text in products*/
 .text {
     width: 80%;
@@ -536,13 +534,6 @@ slider-content {
         width: 100%;
     }
 
-    /*.address-block  {*/
-    /*float: none;*/
-    /*}*/
-    /*.address-block div {*/
-    /*display: block;*/
-    /*margin-bottom: 10px;*/
-    /*}*/
     .logo-img {
         float: none;
         text-align: center;
@@ -557,7 +548,7 @@ slider-content {
     }
 
     .menu-buttons ul li {
-        padding: 0px 5px 10px;
+        padding: 0 5px 10px;
     }
 
     .png-sub {
@@ -580,7 +571,7 @@ slider-content {
     }
 
     .address-block {
-        padding-left: 0px;
+        padding-left: 0;
     }
 
     .text {
@@ -606,7 +597,7 @@ slider-content {
         float: left;
     }
 
-    .line-3 img-jpg {
+    .line-3 img img-jpg {
         width: 100%;
         padding: 0;
         margin: 0;
@@ -659,9 +650,7 @@ slider-content {
         float: left
     }
 
-    .line-2 png {
-        display: block;
-    }
+
 
     .line-2 img {
         float: left;
@@ -717,7 +706,8 @@ slider-content {
 
     .logo-subtitles {
         display: block;
-        padding-left: 0px;
+        padding-left: 0;
+        padding-bottom: 0 ;
     }
 
     .logo-block {
@@ -753,6 +743,11 @@ slider-content {
 
 @media screen and (max-width: 570px) {
 
+    .logo-subtitles {
+        display: block;
+        float: none;
+
+    }
 }
 
 @media screen and (max-width: 440px) {
@@ -770,6 +765,16 @@ slider-content {
 
     .logo-block {
         padding-left: 0;
+    }
+
+    .logo-subtitles {
+        display: block;
+        padding-left: 0;
+        padding-bottom: 0 ;
+    }
+
+    .sub {width: 100%;}
+    .sub2 {width: 100%;}
     }
 
     .contacts-info {
